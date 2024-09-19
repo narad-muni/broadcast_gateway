@@ -1,0 +1,15 @@
+{
+    "exchange": "NSE_CMO",
+    "udp_auto_switch": true,
+    "udp_switch_timeout": 0,
+    "udp_local_ip": "0.0.0.0",
+    "primary_mcast_ip": "224.0.0.0",
+    "primary_mcast_port": 7811,
+    "secondary_mcast_ip": "224.0.0.0",
+    "secondary_mcast_port": 7812,
+    "thread_count": 5,
+    "kafka_partition_no": 1,
+    "kafka_brokers": 1,
+    "kafka_topic_name": "test",
+    "kafka_config_path": "String"
+}
